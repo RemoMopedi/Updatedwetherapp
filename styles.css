@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #ff9a9e 0%, #fad0c4 100%);
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.container {
+  text-align: center;
+  background-color: #fff;
+  border-radius: 15px;
+  padding: 40px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+  width: 350px;
+  max-width: 90%;
+  animation: fadeIn 1s ease-in-out;
+}
+
+h1 {
+  color: #ff6f61;
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.search-section {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  width: 70%;
+  padding: 10px;
+  border: 2px solid #ff6f61;
+  border-radius: 5px 0 0 5px;
+  font-size: 1em;
+  transition: border-color 0.3s;
+}
+
+input[type="text"]:focus {
+  border-color: #f66;
+  outline: none;
+}
+
+button {
+  width: 30%;
+  background-color: #ff6f61;
+  color: white;
+  font-size: 1em;
+  border: none;
+  padding: 12px 0;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+  background-color: #ff4d4d;
+  transform: translateY(-2px);
+}
+
+#weatherDisplay {
+  margin-top: 20px;
+  animation: slideUp 0.8s ease;
+}
+
+h2 {
+  font-size: 1.8em;
+  color: #ff4d4d;
+  margin-bottom: 10px;
+}
+
+.weather-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.weather-info img {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 10px;
+}
+
+.weather-info p {
+  font-size: 1.1em;
+  margin: 5px 0;
+}
+
+.attractions-section {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.attractions-section h3 {
+  font-size: 1.2em;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+#attractions {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  grid-gap: 10px;
+  list-style: none;
+  padding: 0;
+}
+
+#attractions li {
+  background-color: #ffe8e8;
+  border-radius: 5px;
+  padding: 8px;
+  font-size: 0.9em;
+  text-align: center;
+  color: #ff6f61;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.hidden {
+  display: none;
+}
+
+footer {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 0.9em;
+  color: #555;
+}
+
+footer a {
+  color: #ff6f61;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(30px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}

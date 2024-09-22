@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Advanced Weather App</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Weather in Your City</h1>
+      <div class="search-section">
+        <input type="text" id="city" placeholder="Enter city name" />
+        <button id="getWeather">Get Weather</button>
+      </div>
+
+      <div id="weatherDisplay" class="hidden">
+        <h2 id="cityName"></h2>
+        <div class="weather-info">
+          <img id="weatherIcon" src="" alt="Weather Icon" />
+          <p><strong>Temperature:</strong> <span id="temperature"></span>°C</p>
+          <p><strong>Condition:</strong> <span id="description"></span></p>
+          <p><strong>Wind Speed:</strong> <span id="windSpeed"></span> m/s</p>
+        </div>
+        <div class="attractions-section">
+          <h3>Popular Attractions:</h3>
+          <ul id="attractions"></ul>
+        </div>
+        <p>Enjoy your day! 😊</p>
+      </div>
+    </div>
+
+    <footer>
+      <p>
+        Created by
+        <a href="https://your-creator-link.com" target="_blank"
+          >| Remo Mopedi</a
+        >
+        Hosted on<a href="https://your-host-link.com" target="_blank"
+          >| Netlify |</a
+        >
+        Coded on
+        <a href="https://your-host-link.com" target="_blank">| GitHub|</a>
+      </p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

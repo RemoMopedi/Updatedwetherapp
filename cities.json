@@ -1,0 +1,126 @@
+{
+  "new york": {
+    "weather": "Cloudy, 18°C",
+    "attractions": [
+      "Statue of Liberty",
+      "Central Park",
+      "Empire State Building"
+    ]
+  },
+  "london": {
+    "weather": "Rainy, 12°C",
+    "attractions": ["Big Ben", "London Eye", "Tower of London"]
+  },
+  "paris": {
+    "weather": "Sunny, 22°C",
+    "attractions": ["Eiffel Tower", "Louvre Museum", "Notre Dame Cathedral"]
+  },
+  "tokyo": {
+    "weather": "Windy, 20°C",
+    "attractions": ["Tokyo Tower", "Shibuya Crossing", "Sensoji Temple"]
+  },
+  "sydney": {
+    "weather": "Sunny, 25°C",
+    "attractions": ["Sydney Opera House", "Bondi Beach", "Harbour Bridge"]
+  },
+  "dubai": {
+    "weather": "Hot, 38°C",
+    "attractions": ["Burj Khalifa", "Palm Jumeirah", "Dubai Mall"]
+  },
+  "rome": {
+    "weather": "Mild, 18°C",
+    "attractions": ["Colosseum", "Vatican Museums", "Trevi Fountain"]
+  },
+  "cairo": {
+    "weather": "Sunny, 30°C",
+    "attractions": ["Pyramids of Giza", "Sphinx", "Egyptian Museum"]
+  },
+  "rio de janeiro": {
+    "weather": "Humid, 27°C",
+    "attractions": [
+      "Christ the Redeemer",
+      "Sugarloaf Mountain",
+      "Copacabana Beach"
+    ]
+  },
+  "moscow": {
+    "weather": "Cold, 5°C",
+    "attractions": ["Red Square", "Kremlin", "St. Basil's Cathedral"]
+  },
+  "bangkok": {
+    "weather": "Hot, 33°C",
+    "attractions": ["Grand Palace", "Wat Arun", "Chatuchak Market"]
+  },
+  "los angeles": {
+    "weather": "Sunny, 26°C",
+    "attractions": ["Hollywood Sign", "Venice Beach", "Griffith Observatory"]
+  },
+  "berlin": {
+    "weather": "Cool, 16°C",
+    "attractions": ["Brandenburg Gate", "Berlin Wall", "Museum Island"]
+  },
+  "toronto": {
+    "weather": "Mild, 15°C",
+    "attractions": ["CN Tower", "Royal Ontario Museum", "Toronto Islands"]
+  },
+  "mumbai": {
+    "weather": "Humid, 29°C",
+    "attractions": [
+      "Gateway of India",
+      "Marine Drive",
+      "Chhatrapati Shivaji Terminus"
+    ]
+  },
+  "mexico city": {
+    "weather": "Mild, 22°C",
+    "attractions": ["Chapultepec Park", "Zócalo", "Frida Kahlo Museum"]
+  },
+  "cape town": {
+    "weather": "Sunny, 21°C",
+    "attractions": ["Table Mountain", "Robben Island", "V&A Waterfront"]
+  },
+  "singapore": {
+    "weather": "Hot, 31°C",
+    "attractions": ["Marina Bay Sands", "Gardens by the Bay", "Sentosa Island"]
+  },
+  "seoul": {
+    "weather": "Mild, 17°C",
+    "attractions": [
+      "Gyeongbokgung Palace",
+      "N Seoul Tower",
+      "Bukchon Hanok Village"
+    ]
+  },
+  "barcelona": {
+    "weather": "Warm, 24°C",
+    "attractions": ["Sagrada Familia", "Park Güell", "La Rambla"]
+  },
+  "istanbul": {
+    "weather": "Cool, 19°C",
+    "attractions": ["Hagia Sophia", "Blue Mosque", "Topkapi Palace"]
+  },
+  "lisbon": {
+    "weather": "Sunny, 23°C",
+    "attractions": ["Belém Tower", "Jerónimos Monastery", "Praça do Comércio"]
+  },
+  "vienna": {
+    "weather": "Mild, 16°C",
+    "attractions": [
+      "Schönbrunn Palace",
+      "St. Stephen's Cathedral",
+      "Belvedere Palace"
+    ]
+  },
+  "athens": {
+    "weather": "Hot, 28°C",
+    "attractions": ["Acropolis", "Parthenon", "Plaka"]
+  },
+  "hong kong": {
+    "weather": "Humid, 30°C",
+    "attractions": [
+      "Victoria Peak",
+      "Tsim Sha Tsui Promenade",
+      "Disneyland Hong Kong"
+    ]
+  }
+}
